@@ -5,7 +5,7 @@ import os.phone.Android;
 import os.phone.IOS;
 import os.phone.Windows;
 
-public class FactoryMain {
+public class FactoryWithNoEncapsulation {
 
     public static void main(String[] args) {
         /*
