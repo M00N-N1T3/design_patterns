@@ -34,6 +34,13 @@ Creational patterns are used when our app requires us to create an object in our
 4. Builder
 5. Prototype
 
+Creational patterns simply deals with creating objects, one of the most famous one is the Factory pattern
+
+Imagine you need to create a bunch of users for an app such as admins, regular users and guests.
+The factory pattern lets you have a specialized factory in your code that produces the right user objects based on certain criteria in your code
+
+Think of it as a code factory that spits us certain objects based of off your needs
+
 ## Structural patterns
 
 We use structural design pattern when we want to create applications that are composed of multiple objects.
@@ -51,6 +58,13 @@ Note: Composition is the combination of multiple objects to produce one single a
 5. Facade
 6. Bridge
 7. Decorator
+
+Structural patterns are all about how objects are composed as well as their relationship to each other
+
+An Example of the Adapter pattern, imagine you have phone charger and it needs fit in different outlets. You would need an Adapter for it.
+Same logic applies with the adaptor pattern
+
+The adaptor pattern allows objects with different interfaces communicate with each other
 
 ## Behavioral patterns
 
@@ -70,6 +84,29 @@ Behavioral patterns are used when we have two application and we are trying to c
 10. Interpreter
 11. Memento
 
+Behavioral patterns focus more on how objects interacts and communicates with each other.
+
+A good example would be teh Observer patter Think of a chat app, when one user sends a message all other users get notified in app.
+That there would be the Observer pattern
+
 ## Conclusion
 
-When it comes to choosing the design pattern we need to think about the problem we are trying to solve, the logical approach and then we choose from it
+You do not need to memorize all of them, it is more about understanding them and how they work under the hood than anything else.
+
+By knowing how they work we can then choose which pattern to work with based on the problem we are trying to solve,
+the logical approach and then we choose from it.
+
+You need to understand the problem and then choose a pattern that most fits.
+
+### Why Design Patterns
+
+Design patterns are about creating systems that are more modular, more flexible and easier to manage and maintain
+
+Imagine you are building the ecommerce platform. As the number of user grows you will need to scale. You will need to add code for deferent payment systems, maybe offer worldwide shipping and etc, if your code is not well structured making these changes become a nightmare. It is like adding a room to a house with no foundation.
+
+When you use design patterns you are essentially building your application with a solid structural foundation, thus making your code more robust, easy to change and so fourth. Thus ultimately making your code  stand the test of time
+
+## Extra
+
+Compositions, interfaces and loose coupling, key concepts to grasp about design patterns.
+The gang of 4, book called Design patterns, good resource to start off on
