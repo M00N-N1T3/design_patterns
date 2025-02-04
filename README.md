@@ -11,7 +11,8 @@ SO HERE WE GO AGAIN, time to dive into the world of design patterns!
 ## Projects Developed during my learning path
 
 All links lead to one of my public repositery
-[Shape Factory](https://github.com/M00N-N1T3/shapes_using_factory_design)
+
+1. [Shape Factory](https://github.com/M00N-N1T3/shapes_using_factory_design)
 
 ## Overview
 
