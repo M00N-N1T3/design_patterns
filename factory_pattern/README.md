@@ -5,7 +5,7 @@ The factory pattern lets you have a specialized factory in your code that produc
 
 Think of it as a code factory that spits us certain objects based on your needs.
 All you have todo is to make a request of what you want, and the factory
-will deliver it to you. 
+will deliver it to you.
 
 ## Overview
 
@@ -27,7 +27,7 @@ The beauty of the factory design is that we can pass android or ios,
 and the factory will produce the correct/desired OS object.
 Thus, as a developer, all you can focus on is the implementation of this OS factory rather than designing the OS
 
-Factory Design allows us to have a single interface with multiple implementations of that interface. 
+Factory Design allows us to have a single interface with multiple implementations of that interface.
 That's why in the example above, we have only one OS factory used to produce the different types of OS systems
 such as android, ios or windows.
 
@@ -89,10 +89,10 @@ to see what classes I am using
 thus I am exposing the subsystem classes
 
 With the Factory design pattern,
-we aim on providing you with what you need without exposing where it comes from or which class produced it, 
+we aim on providing you with what you need without exposing where it comes from or which class produced it,
 Thus adhering to the laws of encapsulation and abstraction.
 
-The idea is to create one mainFactory class that creates your desired Object based on the arguments you give it 
+The idea is to create one mainFactory class that creates your desired Object based on the arguments you give it
 
 ### Example 2
 

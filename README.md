@@ -16,7 +16,9 @@ All links lead to one of my public repositery
 
 1. [Factory Pattern](https://github.com/M00N-N1T3/factory_design_pattern)
 
-    -  [Shape Factory](https://github.com/M00N-N1T3/shapes_using_factory_design), [Animal Factory](https://github.com/M00N-N1T3/animal_factory)
+    - [Shape Factory](https://github.com/M00N-N1T3/shapes_using_factory_design), [Animal Factory](https://github.com/M00N-N1T3/animal_factory)
+
+2. [Builder Pattern](https://github.com/M00N-N1T3/builder_design_pattern.git)
 
 ## Overview
 
